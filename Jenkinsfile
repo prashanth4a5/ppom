@@ -24,7 +24,7 @@ pipeline {
        steps {
          echo 'Deploy to TEST Completed'
       }
-      }
+      }}
   options {
     timeout(time: 1, unit: 'HOURS')
   }
