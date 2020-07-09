@@ -1,9 +1,5 @@
 pipeline {
-  agent {
-    node {
-      label 'linux'
-    }
- }
+
  parameters {
   choice choices: ['TEST', 'UAT', 'PROD'], description: 'Select the Environment to Deploy ', name: 'DEPLOY_TO'
 }
